@@ -85,3 +85,12 @@ So I just upload it here and use it as another project.
   - PYTHON
   - JSON
 
+# Screenshots:
+## Index page
+![](screenshots/page1.png)
+##  Gallery 1
+![](screenshots/gallery1.png)
+## Gallery 2
+![](screenshots/gallery2.png)
+## Reservation form
+![](screenshots/form.png)
