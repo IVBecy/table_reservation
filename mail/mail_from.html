@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta name="color-scheme" content='only'>
+  <!--  Bootstrap -->
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+    integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js'
+    integrity='sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf'
+    crossorigin='anonymous'></script>
+  <style type="text/css">
+    #footer {
+      background-color: #414a52;
+      background-image: linear-gradient(#414a52, #414a52);
+      color: #e2dcd6;
+      padding: 20px;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    #footer p {
+      color: #e2dcd6;
+    }
+
+    h1 {
+     color: black; 
+    }
+
+    p,div {
+      color: black; 
+    }
+
+    .navbar {
+      background-color: #414a52;
+      text-align: center;
+      background-image: linear-gradient(#414a52, #414a52);
+    }
+
+    .navbar img {
+      width: 150px;
+    }
+
+    .main {
+      background-color: #e2dcd6;
+      background-image: linear-gradient(#e2dcd6, #e2dcd6);
+      color: black; 
+      text-align: center;
+    }
+
+    .main p {
+      padding: 10px;
+    }
+  </style>
+</head>
+<body style='background-color: #e2dcd6;background-image: linear-gradient(#e2dcd6, #e2dcd6);width: 700px; margin:0 auto;'>
+  <div style='text-align: center;'>
+    <!-- Navbar -->
+    <div class="navbar">
+      <!-- Here you actually need a URL to the image, otherwise it does not work in production -->
+      <img src='logo.jpg' alt='Logo' />
+    </div>
+    <!-- Reservation message -->
+    <div class="main" stye='background-color: #e2dcd6;background-image: linear-gradient(#e2dcd6, #e2dcd6)'>
+      <h1>New reservation</h1>
+      <p style='text-align: left;'>
+        Name: <b>{NAME}</b><br>
+        Email: <b>{EMAIL}</b><br>
+        Phone number: <b>{PHONE}</b><br>
+        Date: <b>{DATE}</b><br>
+        Time: <b>{TIME}</b><br>
+        Number of people: <b>{GUESTS}</b>
+      </p>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      <p>RESTAURANT NAME</p>
+    </div>
+  </div>
+</body>
